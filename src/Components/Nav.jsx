@@ -26,9 +26,9 @@ const Nav = () => {
       <div className="nav__wrapper">
         <div className="nav__links">
           <a className="nav__link" onClick={navigateHome}>Home</a>
-          <div className="nav__link" onClick={navigateToInformation}>Information & Other Events</div>
+          <div className="nav__link" onClick={navigateToInformation}>Information</div>
           <div className="nav__link" onClick={navigateContact}>Contact</div>
-          <div className="nav__link" onClick={navigateCast}>Cast, Crew & Sponsors</div>
+          <div className="nav__link" onClick={navigateCast}>Sponsors</div>
         </div>
       </div>
     </>
