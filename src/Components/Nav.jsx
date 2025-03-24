@@ -17,7 +17,7 @@ const Nav = () => {
         navigate('/contact');
     }
 
-    function navigateCast() {
+    function navigateSponsors() {
         navigate('/cast');
     }
 
@@ -28,7 +28,7 @@ const Nav = () => {
           <a className="nav__link" onClick={navigateHome}>Home</a>
           <div className="nav__link" onClick={navigateToInformation}>Information</div>
           <div className="nav__link" onClick={navigateContact}>Contact</div>
-          <div className="nav__link" onClick={navigateCast}>Sponsors</div>
+          <div className="nav__link" onClick={navigateSponsors}>Sponsors</div>
         </div>
       </div>
     </>

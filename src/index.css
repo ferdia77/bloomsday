@@ -212,6 +212,14 @@
     width: 480px;
   }
 
+.information {
+  font-size: 18px;
+}
+
+.nav__link {
+  font-size: 18px;
+}
+
   .credits {
     font-size: 18px;
   }
@@ -219,11 +227,45 @@
 
 @media (max-width: 486px) {
   .promo__img {
-    height: 440px;
-    width: 440px;
+    height: 400px;
+    width: 400px;
   }
 
   .credits {
     font-size: 16px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 416px) {
+  .promo__img {
+    height: 375px;
+    width: 375px;
+  }
+
+  .credits {
+    font-size: 14px;
+  }
+
+  .nav__link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 376px) {
+  .promo__img {
+    height: 330px;
+    width: 330px;
+  }
+
+  .credits {
+    font-size: 14px;
+  }
+
+  .nav__link {
+    font-size: 12px;
   }
 }
