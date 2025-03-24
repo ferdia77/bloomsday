@@ -16,7 +16,7 @@ const Cast = () => {
         <br />
         Directed by Nastaise Leddy
       </p>
-        <h1 className="header__thanks">Special Thanks To All Our  Who Make This Possible</h1>
+        <h1 className="header__thanks">Special Thanks To All Our Sponsors Who Make This Possible</h1>
       <p className="sponsor__thanks">
         The Blackrock Bloomsday Committee sincerely thanks Seamus Carroll and
         Michael Hayes of Blackrock Village Centre and the wonderful Blackrock
