@@ -20,19 +20,6 @@ const Information = () => {
         inside the amphitheatre that Blackrock Village Centre becomes for
         Blackrock Bloomsday. All welcome, admission free
       </p>
-      <h1>
-        Martello Tower event (for the Tower Bloomsday Brochure) Saturday June 14
-        th 2025 2pm- 3:30pm
-      </h1>
-      <p className="information">
-        Ulysses aWake’s brand new Bloom hails from Glasthule, just a stone’s
-        throw from Sandycove where Joyce’s Ulysses journey starts. Mark Aylward
-        joins the jig of the Ulysses ghosts set free at the Tower in the guise
-        of the Idrone Players’ 18 actors, singers, dancers, and live musicians.
-        They portray Ulysses to the tune of Port na Taibhsí (Jig of the Ulysses
-        Ghosts), while Aylward’s Blooms tells us, in plain words (by
-        metempsychosis), the truth at the heart of his Day.
-      </p>
     </div>
   );
 };

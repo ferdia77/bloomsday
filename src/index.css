@@ -124,10 +124,11 @@
   line-height: 1.5;
   font-weight: bold;
   padding-top: 40px;
+  text-align: center;
 }
 
 .sponsor__thanks {
-  font-size: 22px;
+  font-size: 26px;
   padding: 24px 40px;
 }
 
@@ -152,4 +153,77 @@
 
 .information {
   font-size: 22px;
+}
+
+.promo__img {
+  height: 730px;
+  width: 730px;
+}
+
+.sponsor__wrapper {
+  display: flex;
+}
+
+@media (max-width: 1290px) {
+  .sponsor__thanks {
+    font-size: 22px;
+    padding: 24px 24px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .sponsor__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo__img {
+    height: 770px;
+    width: 770px;
+  }
+
+  .img__promo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .promo__img {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+@media (max-width: 620px) {
+  .promo__img {
+    height: 500px;
+    width: 500px;
+  }
+
+  .credits {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .promo__img {
+    height: 480px;
+    width: 480px;
+  }
+
+  .credits {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 486px) {
+  .promo__img {
+    height: 440px;
+    width: 440px;
+  }
+
+  .credits {
+    font-size: 16px;
+  }
 }
