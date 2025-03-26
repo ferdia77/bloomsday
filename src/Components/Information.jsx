@@ -5,7 +5,7 @@ const Information = () => {
   return (
     <div>
       <Nav />
-      <h1>Ulysses aWake Monday June 16 th 2025 6pm for Blackrock Bloomsday</h1>
+      <h1 className="header__information">Ulysses aWake Monday June 16 th 2025 6pm for Blackrock Bloomsday</h1>
       <p className="information">
         Ulysses aWake is the play that brings drama, comedy, and music to the
         heart of Blackrock. This year we introduce a new Bloom to the Idrone
@@ -19,6 +19,14 @@ const Information = () => {
         be unmasked. Come early, take a seat, enjoy the convivial atmosphere
         inside the amphitheatre that Blackrock Village Centre becomes for
         Blackrock Bloomsday. All welcome, admission free
+      </p>
+      <p className="credits">
+        Adapted by Nastaise Leddy and Iris Park<br/>
+        Theme Music: ‘All the Ghosts of
+        Ulysses’ composed by Aidan Mulloy<br/> 
+        Choreographed by Orla McFeely<br/>
+        Music directed by Aidan Mulloy<br/> 
+        Directed by Nastaise Leddy
       </p>
     </div>
   );

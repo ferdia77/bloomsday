@@ -49,73 +49,6 @@
 }
 
 
-.crowd__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.scene__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.court__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.courting__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.girls__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.joyceTower__photo {
-  height: 220px;
-  width: 300px;
-}
-
-.zurich {
-  height: 150px;
-  width: 150px;
-}
-
-.jjcentre{
-  height: 150px;
-  width: 150px;
-}
-
-.failte {
-  height: 150px;
-  width: 150px;
-}
-
-.DLR {
-  height: 150px;
-  width: 150px;
-}
-
-.BlackrockBusiness {
-  height: 150px;
-  width: 150px;
-}
-
-.BlackRockVillage {
-  height: 150px;
-  width: 150px;
-}
-
-.sponsors {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 18px
-}
 
 .credits {
   display: flex;
@@ -151,47 +84,76 @@
   margin: 18px 0;
 }
 
+.header__information {
+  text-align: center;
+}
+
 .information {
   font-size: 22px;
+  padding: 40px;
+  text-align: center;
 }
 
-.promo__img {
-  height: 730px;
-  width: 730px;
+.promo__photo {
+  height: 600px;
+  width: 100%;
 }
 
-.sponsor__wrapper {
-  display: flex;
-}
-
-@media (max-width: 1290px) {
-  .sponsor__thanks {
-    font-size: 22px;
-    padding: 24px 24px;
-  }
-}
 
 @media (max-width: 1240px) {
-  .sponsor__wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .promo__img {
-    height: 770px;
-    width: 770px;
-  }
-
-  .img__promo {
-    display: flex;
-    justify-content: center;
+  .promo__photo {
+    height: 500px;
+    width: 100%;
   }
 }
 
+@media (max-width: 1040px) {
+  .promo__photo {
+    height: 470px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .promo__photo {
+    height: 440px;
+    width: 100%;
+  }
+}
+
+
 @media (max-width: 800px) {
-  .promo__img {
-    height: 600px;
-    width: 600px;
+  .promo__photo {
+    height: 410px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  .promo__photo {
+    height: 380px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .promo__photo {
+    height: 340px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .promo__photo {
+    height: 310px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .promo__photo {
+    height: 280px;
+    width: 100%;
   }
 }
 
