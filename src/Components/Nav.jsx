@@ -17,10 +17,6 @@ const Nav = () => {
         navigate('/contact');
     }
 
-    function navigateSponsors() {
-        navigate('/cast');
-    }
-
   return (
     <>
       <div className="nav__wrapper">

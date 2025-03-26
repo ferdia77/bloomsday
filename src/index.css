@@ -2,6 +2,10 @@
   background-image: url(assets/Cover.png);
   height: 240px;
   width: 100%;
+  max-width: 1190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__links {
@@ -97,6 +101,7 @@
 .promo__photo {
   height: 600px;
   width: 100%;
+  max-width: 1400px;
 }
 
 
